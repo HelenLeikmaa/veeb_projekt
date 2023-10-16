@@ -1,9 +1,59 @@
-h1, a, button {
-    color: #cfb47c; /*straight from the prototype*/
+/* TODO: font */
+
+header {
+    background-image: url("img/banner_7.jpg");
+    /* leiame mingi parema? */
+    width: 100%;
+    height: calc(100vh - 500px);
+    /* 100vh == veebilehitseja terve akna suurus */
+    /* muuta vastavalt valitavale bännerile-sisule */
+    /* tähtis, et selle ja footeri kõrgused on üksteisega seotud */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
 }
 
 
+header h1 {
+
+    text-align: center;
+    padding-right: 30px;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+h1,
+a,
+button {
+    color: #b3893b;
+    /*straight from the prototype*/
+}
+
 
 footer {
-    background-color: #f4ebd0; /*straight from the prototype*/
+    width: 100%;
+    height: calc(100vh - 600px);
+    /* s.o bännerist u 10 - 50% kitsam (prototüübi järgi) */
+    background-color: #f4ebd0;
+    /*straight from the prototype*/
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 950px) {
+
+    header {
+        height: calc(100vh - 400px);
+    }
+
+    header h1 {
+        font-size: 35px;
+        /* kui bänner valitud, saab täpsustada, et oleks hea nähtavus */
+        line-height: 40px;
+    }
+
+    footer {
+        height: calc(100vh - 550px);
+    }
 }
