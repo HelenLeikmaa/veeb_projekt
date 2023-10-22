@@ -1,0 +1,30 @@
+
+.container-apartment {
+    display: flex;
+}
+
+.apartment-image {
+    width: 20%;
+    margin: 20px;
+}
+
+.apartment-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+.apartment:hover {
+    background-color: #FFFF99; 
+    cursor: pointer;
+}
+
+.apartment-image img {
+    max-width: 100%;
+}

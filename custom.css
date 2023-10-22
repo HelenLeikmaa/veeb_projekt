@@ -30,6 +30,40 @@ button, footer h2, footer p {
     /*straight from the prototype*/
 }
 
+/* nav CSS */
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+.current-page {
+    color: #FFDB58; 
+}
+
+.other-page {
+    color: #888; 
+}
+
+/* CSS for the icon */
+.search {
+    cursor: pointer;
+}
+
 
 footer {
     width: 100%;
