@@ -25,7 +25,7 @@ header h1 {
 
 h1,
 a,
-button {
+button, footer h2, footer p {
     color: #b3893b;
     /*straight from the prototype*/
 }
@@ -39,7 +39,55 @@ footer {
     /*straight from the prototype*/
     position: fixed;
     bottom: 0;
+    padding: 80px 80px;
 }
+
+footer ul {
+    list-style-type: none;
+    float:left;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li {
+    padding-bottom: 20px;
+}
+
+#võtaÜhendust {
+    float: right;
+}
+
+#sisukord {
+}
+
+h2 {
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+
+input[type="submit"] {
+    padding: 10px 50px 10px 50px;
+    border: none;
+    background-color: #b3893b;
+    opacity: 0.6;
+    color:white;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    border: none;
+    padding: 10px 100px 10px 20px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #b3893b;
+    opacity: 0.6;
+}
+
+
 
 @media only screen and (max-width: 950px) {
 
