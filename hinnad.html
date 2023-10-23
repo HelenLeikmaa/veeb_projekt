@@ -12,114 +12,116 @@
     <!-- muu CSS -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="custom.css">
-	<link rel="stylesheet" href="apartments.css">
+    <link rel="stylesheet" href="apartments.css">
 </head>
+
 <body>
     <header>
-       <body>
-	        <h1>Hinnad.</h1>
-    <div class="nav">
-        <ul>
-            <li><a href="index.html">Tutvustus</a></li>
-            <li><a href="asukoht.html">Asukoht</a></li>
-            <li><a href="hinnad.html">Hinnad</a></li>
-            <li><a href="#">Võta ühendust</a></li>
- <!--  niiöelda Search bar- -->
-            <img class="search" src="Search.png" /> 
-        </ul>
-    </div>
-</body>
-       
-    </header>
-    <main>
-<body>
-    <div class="container-apartment">
-        <div class="apartment-image">
-            <img id="apartment-image" src="apartment.jpg">
+        <h1>Hinnad.</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Tutvustus</a></li>
+                <li><a href="asukoht.html">Asukoht</a></li>
+                <li><a href="hinnad.html">Hinnad</a></li>
+                <li><a href="#">Võta ühendust</a></li>
+                <!--  niiöelda Search bar- -->
+                <img class="search" src="img/Search.png" />
+            </ul>
         </div>
-        <table class="apartment-table">
-            <tr>
-                <th>Korter</th>
-                <th>Korrus</th>
-                <th>Tube</th>
-                <th>Üldpind</th>
-                <th>Hind</th>
-            </tr>
-            <tr class="apartment" onclick="highlightApartment(1, 'apartment1.jpg')">
-                <td>1</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2012</td>
-                <td>$500</td>
-            </tr>
-            <tr class="apartment" onclick="highlightApartment(2, 'apartment2.jpg')">
-                <td>2</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2012</td>
-                <td>$800</td>
-            </tr>
-            <tr class="apartment" onclick="highlightApartment(3, 'apartment3.jpg')">
-                <td>3</td>
-                <td>2</td>
-                <td>3</td>
-                <td>2009</td>
-                <td>$500</td>
-            </tr>
-            <tr class="apartment" onclick="highlightApartment(4, 'apartment4.jpg')">
-                <td>4</td>
-                <td>2</td>
-                <td>1</td>
-                <td>2010</td>
-                <td>$600</td>
-            </tr>
-            <tr class="apartment" onclick="highlightApartment(5, 'apartment5.jpg')">
-                <td>5</td>
-                <td>3</td>
-                <td>1</td>
-                <td>2012</td>
-                <td>$800</td>
-            </tr>
-        </table>
-    </div>
-</body>
+    </header>
+
+
+    <main>
+
+        <div class="container-apartment">
+            <div class="apartment-image">
+                <img id="apartment-image" src="apartment.jpg">
+            </div>
+            <table class="apartment-table">
+                <tr>
+                    <th>Korter</th>
+                    <th>Korrus</th>
+                    <th>Tube</th>
+                    <th>Üldpind</th>
+                    <th>Hind</th>
+                </tr>
+                <tr class="apartment" onclick="highlightApartment(1, 'apartment1.jpg')">
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2012</td>
+                    <td>$500</td>
+                </tr>
+                <tr class="apartment" onclick="highlightApartment(2, 'apartment2.jpg')">
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>2012</td>
+                    <td>$800</td>
+                </tr>
+                <tr class="apartment" onclick="highlightApartment(3, 'apartment3.jpg')">
+                    <td>3</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>2009</td>
+                    <td>$500</td>
+                </tr>
+                <tr class="apartment" onclick="highlightApartment(4, 'apartment4.jpg')">
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2010</td>
+                    <td>$600</td>
+                </tr>
+                <tr class="apartment" onclick="highlightApartment(5, 'apartment5.jpg')">
+                    <td>5</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <td>2012</td>
+                    <td>$800</td>
+                </tr>
+            </table>
+        </div>
+
     </main>
+
+
     <footer>
         <div class="row" id="sisukord">
             <div class="col-lg-6">
-            <ul>
-                <li>
-                    <a href="index.html">Tutvustus</a>
-                </li>
-                <li>
-                    <a href="asukoht.html">Asukoht</a>
-                </li>
-                <li>
-                    <a href="hinnad.html">Hinnad</a>
-                </li>
-                <li>
-                    <a href="galerii.html">Galerii</a>
-                </li>
-                <li>
-                    <a href="#">Võta ühendust</a>
-                </li>
-                <li>
-                    <div class="footer-sm">
-                        <a href="https://www.instagram.com/"><img src="img/ig.png" alt="instagram" /></a>
-                        <a href="https://www.facebook.com/"><img src="img/fb.png" alt="facebook" /></a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col-lg-6" id="võtaÜhendust">
-            <h2>Tekkis huvi?</h2>
-            <input type="email" id="email" placeholder="Sisesta oma e-post" />
-            <input type="submit" value="Saada" />
-            <br>
-            <br>
-            <br>
-            <p>Võtame Teiega esimesel võimalusel ühendust!</p>
-        </div>
+                <ul>
+                    <li>
+                        <a href="index.html">Tutvustus</a>
+                    </li>
+                    <li>
+                        <a href="asukoht.html">Asukoht</a>
+                    </li>
+                    <li>
+                        <a href="hinnad.html">Hinnad</a>
+                    </li>
+                    <li>
+                        <a href="galerii.html">Galerii</a>
+                    </li>
+                    <li>
+                        <a href="#">Võta ühendust</a>
+                    </li>
+                    <li>
+                        <div class="footer-sm">
+                            <a href="https://www.instagram.com/"><img src="img/ig.png" alt="instagram" /></a>
+                            <a href="https://www.facebook.com/"><img src="img/fb.png" alt="facebook" /></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6" id="võtaÜhendust">
+                <h2>Tekkis huvi?</h2>
+                <input type="email" id="email" placeholder="Sisesta oma e-post" />
+                <input type="submit" value="Saada" />
+                <br>
+                <br>
+                <br>
+                <p>Võtame Teiega esimesel võimalusel ühendust!</p>
+            </div>
         </div>
     </footer>
 
