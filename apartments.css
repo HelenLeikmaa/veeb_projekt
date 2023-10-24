@@ -2,22 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     text-align: center; 
+    text-align: center; /* Center the text within the image container */
 }
 
 .apartment-image {
-   width: 20%; 
-   text-align: right;
+    width: 20%;
+    text-align: right; /* Align the image to the right */
 }
 
 .apartment-table {
     border-collapse: collapse;
-    width: 40%; 
+    width: 40%;
     margin: 20px;
     align-self: center;
 }
-
-
 .apartment-table tr:nth-child(n+2):nth-child(-n+6) {
     border: 1px solid #ccc;
 }
@@ -25,16 +23,22 @@
 th, td {
     text-align: center;
     padding: 10px;
-    
 }
+
 
 th {
     text-align: center;
     padding: 10px;
-    color: #C3A263; 
+    color: #C3A263;
+}
 
 .apartment:hover {
     background-color: #FCF9F0;
     cursor: pointer;
 }
 
+
+.apartment-image img {
+    max-width: 80%; 
+     max-height: 100%;
+}
