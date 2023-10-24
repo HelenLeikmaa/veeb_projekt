@@ -1,25 +1,31 @@
-    .container.tutvustus {
+     .container.tutvustus {
             display: flex;
             flex-direction: column;
         }
 
         .row {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .title.tutvustus {
             font-size: 24px;
-            margin-right: 20px;
+            margin-bottom: 10px;
         }
 
-        .photo.tutvustus {
-            max-width: 50%; 
-         }
-            .text.tutvustus {
+        .text.tutvustus {
             margin-bottom: 20px;
         }
 
+        .photo.tutvustus {
+            max-width: 50px; /* Adjust the initial size of the photos as needed */
+            transition: transform 0.2s; /* Add a transition for smooth scaling */
+        }
 
+        .photo.tutvustus:hover {
+            transform: scale(1.2); /* Enlarge the photo on hover */
+        }
