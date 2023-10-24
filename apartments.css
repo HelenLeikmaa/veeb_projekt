@@ -8,25 +8,43 @@
 }
 
 .apartment-table {
+    border-collapse: collapse;
     width: 80%;
     margin: 20px;
-    border-collapse: collapse;
 }
 
 th, td {
-    text-align: center;
+    border: none; /* Remove vertical lines */
     padding: 10px;
-    border-bottom: 1px solid #ccc; 
-
-th {
-    background-color: #C3A263; 
 }
 
-tr:first-child td {
-    border: none; 
+th {
+    text-align: center;
+    padding: 10px;
+    color: #C3A263; /* Set text color for specific headers */
+}
+
+/* Style for Korter header to keep it outside the table */
+th:nth-child(1) {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Style for Korrus, Tube, Üldpind, and Hind headers to keep them outside the table */
+th:nth-child(2),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5) {
+    text-align: left;
+    margin-left: 20px;
 }
 
 .apartment:hover {
     background-color: #FCF9F0;
     cursor: pointer;
+}
+
+.apartment-image img {
+    max-width: 100%;
+    max-height: 1121px;
 }
