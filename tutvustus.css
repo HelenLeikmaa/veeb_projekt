@@ -25,7 +25,3 @@
             max-width: 100px; 
             transition: transform 0.2s; 
         }
-
-        .photo.tutvustus:hover {
-            transform: scale(1.2); 
-        }
