@@ -5,40 +5,33 @@
 }
 
 .apartment-image {
-    width: 20%;
-    margin: 20px;
-    align-self: center; 
+    width: 60%; 
+    text-align: center; /
 }
 
 .apartment-table {
     border-collapse: collapse;
-    width: 50%; 
+    width: 40%; 
     margin: 20px;
-    align-self: center; 
+    align-self: center;
 }
+
 
 .apartment-table tr:nth-child(n+2):nth-child(-n+6) {
     border: 1px solid #ccc;
 }
 
 th, td {
-    border: 1px solid #ccc;
     text-align: center;
     padding: 10px;
-}
-
-th {
-    text-align: center;
-    padding: 10px;
-    color: #C3A263;
 }
 
 .apartment:hover {
-    background-color: #FCF9F0; 
+    background-color: #FCF9F0;
     cursor: pointer;
 }
 
 .apartment-image img {
     max-width: 100%;
-    max-height: 1121px;
+    max-height: 100%; 
 }
