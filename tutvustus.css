@@ -1,0 +1,29 @@
+.container.tutvustus {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.title1.tutvustus, .title2.tutvustus {
+    width: 50%;
+    text-align: center; 
+
+
+.title1.tutvustus h1, .title2.tutvustus h1 {
+    font-size: 44px; 
+}
+
+.text.tutvustus {
+    font-size: 14px; 
+}
+
+.photo1.tutvustus, .photo2.tutvustus {
+    width: 50%;
+    text-align: center; 
+}
+
+
+.photo1.tutvustus img, .photo2.tutvustus img {
+    max-width: 100%;
+    height: auto;
+}
