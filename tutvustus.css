@@ -1,4 +1,4 @@
-    .containeresimene {
+    .container.tutvustus {
             display: flex;
             flex-direction: column;
         }
@@ -10,15 +10,15 @@
             margin-bottom: 20px;
         }
 
-        .title1 {
+        .title.tutvustus {
             font-size: 24px;
             margin-right: 20px;
         }
 
-        .pilt {
+        .photo.tutvustus {
             max-width: 50%; 
          }
-            .tex {
+            .text.tutvustus {
             margin-bottom: 20px;
         }
 
