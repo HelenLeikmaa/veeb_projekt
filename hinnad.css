@@ -1,23 +1,27 @@
 .container-apartment {
     display: flex;
+    flex-flow: row-wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 5% 5% 5% 0;
 }
 
 .apartment-image {
-    width: 100%;
-    margin: 20px;
+    width: 90%;
 }
 
 .apartment-table {
     border-collapse: collapse;
-    margin: 20px;
-    width: fit-content;
+    width: 90%;
     align-self: center;
 }
+
 .apartment-table tr:nth-child(n+2):nth-child(-n+6) {
     border: 1px solid #ccc;
 }
 
-th, td {
+th,
+td {
     text-align: center;
     padding: 10px;
 }
@@ -36,5 +40,16 @@ th {
 
 
 .apartment-image img {
-    max-width: 80%; 
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .container-apartment {
+        flex-flow: wrap;
+
+        }
+
 }
