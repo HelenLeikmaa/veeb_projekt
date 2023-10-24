@@ -1,10 +1,13 @@
 
 .container-apartment {
     display: flex;
+    overflow: hidden;
+
 }
 
 .apartment-image {
-    width: 20%;
+    display: flex;
+    height: 100%;
     margin: 20px;
 }
 

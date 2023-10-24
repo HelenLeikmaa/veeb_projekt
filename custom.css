@@ -1,13 +1,25 @@
 /* TODO: font */
 
+body {
+    /* jagame keha kolmeks osaks: header, main, footer*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "."
+        "."
+        ".";
+}
+
 header {
     background-image: url("img/banner_7.jpg");
     /* leiame mingi parema? */
     width: 100%;
-    height: 40vh;
+    height: calc(40vh);
     /* 100vh == veebilehitseja terve akna suurus */
     /* muuta vastavalt valitavale bännerile-sisule */
-    /* tähtis, et selle ja footeri kõrgused on üksteisega seotud */
+    /* tähtis, et selle ja footeri kõrgused on üksteisega seotud, sest prototüüp */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -36,16 +48,14 @@ footer p {
 
 /* nav CSS */
 .nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10px;
+    position: absolute;
+    right: 2%;
+    padding-top: 10px;
 }
 
 .search {
-    /* meie algne pilt on hästi suur, muudame väiksemaks*/
     height: 20px;
-    object-fit: contain;
+    padding-top: 10px;
 }
 
 .nav ul {
@@ -81,12 +91,9 @@ footer p {
 
 footer {
     width: 100%;
-    height: 25vh;
-    /* s.o bännerist u 10 - 50% kitsam (prototüübi järgi) */
+    /* kui tahta kõrgust muuta, siis see peab olema bännerist u 10 - 50% kitsam (prototüübi järgi) */
     background-color: #f4ebd0;
     /*straight from the prototype*/
-    position: fixed;
-    bottom: 0;
     padding: 40px 80px;
 }
 
