@@ -1,46 +1,29 @@
 .container-apartment {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .apartment-image {
-    width: 20%;
+    width: 45%; /* Increase width for the image container */
     margin: 20px;
 }
 
 .apartment-table {
     border-collapse: collapse;
-    width: 80%;
+    width: 50%; /* Reduce the table width */
     margin: 20px;
+    align-self: center; /* Center the table within the flex container */
 }
 
 th, td {
-    border: none; /* Remove vertical lines */
-    padding: 10px;
-}
-
-th {
+    border: 1px solid #ccc;
     text-align: center;
     padding: 10px;
-    color: #C3A263; /* Set text color for specific headers */
-}
-
-/* Style for Korter header to keep it outside the table */
-th:nth-child(1) {
-    text-align: left;
-    margin-left: 20px;
-}
-
-/* Style for Korrus, Tube, Üldpind, and Hind headers to keep them outside the table */
-th:nth-child(2),
-th:nth-child(3),
-th:nth-child(4),
-th:nth-child(5) {
-    text-align: left;
-    margin-left: 20px;
 }
 
 .apartment:hover {
-    background-color: #FCF9F0;
+    background-color: #FCF9F0; 
     cursor: pointer;
 }
 
