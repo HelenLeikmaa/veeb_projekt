@@ -1,25 +1,14 @@
 /* TODO: font */
 
-body {
-    /* jagame keha kolmeks osaks: header, main, footer*/
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "."
-        "."
-        ".";
-}
+
 
 header {
     background-image: url("img/banner_7.jpg");
     /* leiame mingi parema? */
     width: 100%;
-    height: calc(40vh);
+    height: 40vh;
     /* 100vh == veebilehitseja terve akna suurus */
     /* muuta vastavalt valitavale bännerile-sisule */
-    /* tähtis, et selle ja footeri kõrgused on üksteisega seotud, sest prototüüp */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -88,6 +77,10 @@ footer p {
     cursor: pointer;
 }
 
+main {
+    height: fit-content;
+}
+
 
 footer {
     width: 100%;
@@ -95,6 +88,7 @@ footer {
     background-color: #f4ebd0;
     /*straight from the prototype*/
     padding: 40px 80px;
+    bottom: 0;
 }
 
 footer ul {
