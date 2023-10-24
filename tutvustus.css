@@ -1,23 +1,29 @@
 .container.tutvustus {
-            
-            display: flex;
-            flex-direction: row;
-        }
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
 
-        .title1.tutvustus {
-            width: 50%;
-            text-align: left;
-        }
+.title1.tutvustus, .title2.tutvustus {
+    width: 50%;
+    text-align: center; 
 
-        .title2.tutvustus {
-            width: 50%;
-            text-align: right;
-        }
 
-        .photo1.tutvustus {
-            width: 50%;
-        }
+.title1.tutvustus h1, .title2.tutvustus h1 {
+    font-size: 24px; 
+}
 
-        .photo2.tutvustus {
-            width: 50%;
-        }
+.text.tutvustus {
+    font-size: 14px; 
+}
+
+.photo1.tutvustus, .photo2.tutvustus {
+    width: 50%;
+    text-align: center; 
+}
+
+
+.photo1.tutvustus img, .photo2.tutvustus img {
+    max-width: 100%;
+    height: auto;
+}
