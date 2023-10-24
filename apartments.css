@@ -5,15 +5,15 @@
 }
 
 .apartment-image {
-    width: 45%; /* Increase width for the image container */
+    width: 20%;
     margin: 20px;
 }
 
 .apartment-table {
     border-collapse: collapse;
-    width: 50%; /* Reduce the table width */
+    width: 50%; 
     margin: 20px;
-    align-self: center; /* Center the table within the flex container */
+    align-self: center; 
 }
 
 th, td {
