@@ -19,7 +19,7 @@
     font-size: 44px;
 }
 
-.text.tutvustus {
+.text {
     font-size: 14px;
     color: #E1DFDB; 
 }
@@ -40,6 +40,8 @@
     background-color: #F4EBD0;
     text-align: center;
     padding: 10px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .tutv-photo-container {
