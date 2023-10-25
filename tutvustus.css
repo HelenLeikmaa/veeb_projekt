@@ -1,3 +1,6 @@
+* {
+    font-family: Arial, sans-serif;
+}
 .container.tutvustus {
     display: flex;
     align-items: center; 
@@ -49,7 +52,20 @@
     max-width: 40px;
     max-height: 40px;
 }
+.photo3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
 
 .tutv-caption {
     text-align: center;
+}
+.custom-title {
+    font-size: 28px;
+}
+    .text {
+    font-size: 14px;
+    color: #E1DFDB;
 }
