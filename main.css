@@ -116,6 +116,32 @@ footer a:hover {
     object-fit: contain;
 }
 
+.container-asukoht {
+    background-image: url("img/map2.jpg");
+    opacity: 0.5;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.visit-us{
+    background-color: white;
+    width: 350px;
+    height: auto;
+    text-align: left;
+    padding: 30px 30px;
+    margin-right: 100px;    
+}
+
+.visit-us p {
+    padding-bottom: 15px;
+}
+
 h2 {
     font-size: 32px;
     padding-bottom: 30px;
