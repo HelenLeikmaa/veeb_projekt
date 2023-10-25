@@ -46,10 +46,10 @@
     background-color: #F4EBD0;
     text-align: center;
     padding: 10px 0;
-    margin-bottom: 20px;
-    margin-top: 20px;
     width: 60%; 
     height: 150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .tutv-photo-container {
