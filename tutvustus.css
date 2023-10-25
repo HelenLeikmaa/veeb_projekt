@@ -24,14 +24,14 @@
     color: #E1DFDB; 
 }
 
-.photo1.tutvustus,
-.photo2.tutvustus {
+.photo1
+.photo2 {
     width: 50%;
     text-align: center;
 }
 
-.photo1.tutvustus img,
-.photo2.tutvustus img {
+.photo1 img,
+.photo2 img {
     max-width: 100%;
     height: auto;
 }
