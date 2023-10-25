@@ -28,28 +28,28 @@
     max-width: 100%;
     height: auto;
 }
-.tutv.photo-strip {
-            background-color: #F4EBD0;
-            text-align: center;
-            padding: 10px 0;
-        }
+.tutv-photo-strip {
+    background-color: #F4EBD0;
+    text-align: center;
+    padding: 10px 0;
+}
 
-        .tutv.photo-container {
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-        }
+.tutv-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        .tutv.photo {
-            text-align: center;
-            margin: 0 10px;
-        }
+.tutv-photo {
+    text-align: center;
+    margin: 0 10px;
+}
 
-        .tutv.photo img {
-            max-width: 40px; 
-            max-height: 40px; 
-        }
+.tutv-photo img {
+    max-width: 40px;
+    max-height: 40px;
+}
 
-        .tutv.caption {
-            text-align: center;
-        }
+.tutv-caption {
+    text-align: center;
+}
