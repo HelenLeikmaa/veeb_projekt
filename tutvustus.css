@@ -17,11 +17,15 @@
 .title1.tutvustus h1,
 .title2.tutvustus h1 {
     font-size: 44px;
+    text-align: center;
+
 }
 
 .text {
     font-size: 14px;
     color: #E1DFDB; 
+    text-align: center;
+
 }
 
 .photo1
