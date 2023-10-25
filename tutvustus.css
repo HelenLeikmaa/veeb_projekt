@@ -1,39 +1,41 @@
 * {
     font-family: Arial, sans-serif;
 }
+
 .container.tutvustus {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 
-.title1.tutvustus, .title2.tutvustus {
+.title1.tutvustus,
+.title2.tutvustus {
     width: 50%;
-    text-align: center; 
-     font-family: Arial, sans-serif;
-
+    text-align: center;
 }
 
-.title1.tutvustus h1, .title2.tutvustus h1 {
-    font-size: 44px; 
-     font-family: Arial, sans-serif;
+.title1.tutvustus h1,
+.title2.tutvustus h1 {
+    font-size: 44px;
 }
 
 .text.tutvustus {
-    font-size: 14px; 
-     font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #E1DFDB; 
 }
 
-.photo1.tutvustus, .photo2.tutvustus {
+.photo1.tutvustus,
+.photo2.tutvustus {
     width: 50%;
-    text-align: center; 
+    text-align: center;
 }
 
-
-.photo1.tutvustus img, .photo2.tutvustus img {
+.photo1.tutvustus img,
+.photo2.tutvustus img {
     max-width: 100%;
     height: auto;
 }
+
 .tutv-photo-strip {
     background-color: #F4EBD0;
     text-align: center;
@@ -55,22 +57,23 @@
     max-width: 40px;
     max-height: 40px;
 }
+
+
 .photo3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .tutv-caption {
     text-align: center;
-    font-family: Arial, sans-serif;
+    color: #B88F43;
 }
+
+
 .custom-title {
     font-size: 28px;
-    font-family: Arial, sans-serif;
-}
-    .text {
-    font-size: 14px;
-    color: #E1DFDB;
 }
