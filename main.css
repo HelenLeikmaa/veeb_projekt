@@ -116,28 +116,13 @@ footer a:hover {
     object-fit: contain;
 }
 
-.container-asukoht {
-    background-image: url("img/map2.jpg");
-    opacity: 0.5;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content:right;
-    align-items: center;
-}
+#map {
 
-.visit-us{
-    background-color: white;
-    width: 350px;
-    text-align: left;
-    padding: 30px 30px;
-    margin: 100px;    
-}
+    position: relative;
+    width: auto;
+    height: 600px;
+    margin: auto;
 
-.visit-us p {
-    padding-bottom: 15px;
 }
 
 h2 {
