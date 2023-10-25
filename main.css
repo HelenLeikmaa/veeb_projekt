@@ -120,7 +120,6 @@ footer a:hover {
     background-image: url("img/map2.jpg");
     opacity: 0.5;
     width: 100%;
-    height: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -132,10 +131,9 @@ footer a:hover {
 .visit-us{
     background-color: white;
     width: 350px;
-    height: auto;
     text-align: left;
     padding: 30px 30px;
-    margin-right: 100px;    
+    margin: 100px;    
 }
 
 .visit-us p {
