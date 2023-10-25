@@ -8,14 +8,14 @@
     justify-content: center;
 }
 
-.title1.tutvustus,
-.title2.tutvustus {
+.title1,
+.title2 {
     width: 50%;
     text-align: center;
 }
 
-.title1.tutvustus h1,
-.title2.tutvustus h1 {
+.title1 h1,
+.title2 h1 {
     font-size: 44px;
     text-align: center;
 
@@ -28,7 +28,7 @@
 
 }
 
-.photo1
+.photo1,
 .photo2 {
     width: 50%;
     text-align: center;
